@@ -1,0 +1,12 @@
+	MY COMMENTS TO THE PROJECT ATTENTION
+
+1. Local connection is active if the corresponding neighbour
+ exists and is not dead. Averaging in summing signals from 
+ the neighbours is done by dividing the sum on the number of 
+ ative neighbours. 
+
+2. Averaging in summing signals to the CO is done by the number
+ of alive oscillators (so it is independent of the size of 
+ the field). With increasing the number of alive oscillators,
+ the strenght of the influence of a particular object on 
+ the CO decreases.

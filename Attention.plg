@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Attention - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/Attention.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Attention.rc"" 
+Creating temporary file "C:\DOCUME~1\KAZANO~1\LOCALS~1\Temp\RSP49.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Attention.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Attention.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\AttentionDoc.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\AttentionView.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Eqintegr.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\ErrorDialog.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Errorhandle.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\MainFrm.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Mot.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\NRUTIL.CPP"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Odeint.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Parset.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Rngt.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Stimgen.cpp"
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Stimvar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KAZANO~1\LOCALS~1\Temp\RSP49.tmp" 
+Creating temporary file "C:\DOCUME~1\KAZANO~1\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Attention.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KAZANO~1\LOCALS~1\Temp\RSP4B.tmp" 
+Creating temporary file "C:\DOCUME~1\KAZANO~1\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Attention.pdb" /machine:I386 /out:"Release/Attention.exe" 
+".\Release\Attention.obj"
+".\Release\AttentionDoc.obj"
+".\Release\AttentionView.obj"
+".\Release\Eqintegr.obj"
+".\Release\ErrorDialog.obj"
+".\Release\Errorhandle.obj"
+".\Release\MainFrm.obj"
+".\Release\Mot.obj"
+".\Release\NRUTIL.OBJ"
+".\Release\Odeint.obj"
+".\Release\Parset.obj"
+".\Release\Rngt.obj"
+".\Release\StdAfx.obj"
+".\Release\Stimgen.obj"
+".\Release\Stimvar.obj"
+".\Release\Attention.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\KAZANO~1\LOCALS~1\Temp\RSP4C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Attention.cpp
+AttentionDoc.cpp
+AttentionView.cpp
+Eqintegr.cpp
+ErrorDialog.cpp
+Errorhandle.cpp
+MainFrm.cpp
+Mot.cpp
+NRUTIL.CPP
+Odeint.cpp
+Parset.cpp
+Rngt.cpp
+Stimgen.cpp
+Stimvar.cpp
+C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Stimvar.cpp(226) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\Stimvar.cpp(227) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+C:\Documents and Settings\kazanovich\My programs\Ñ++ programs\MOT10\NRUTIL.CPP(169) : warning C4700: local variable 'j' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+Attention.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
